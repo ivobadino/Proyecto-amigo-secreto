@@ -1,20 +1,20 @@
 let listaAmigos = [];
 let nombre = '';
 
-function agregarAmigoAlListado(){
+function agregarAmigo(){
    
     nombre = document.getElementById('amigo').value;                //obtener el texto de la caja de carga
     
-if (nombre == ''){                                                  //chequear si el texto esta vacio
+    if (nombre == ''){                                              //chequear si el texto esta vacio
     //mostrar texto de invalidez
-        
+        alert('Por favor, ingrese un nombre valido');
+        return;
     }
     else{                                                           //actualizar el array 
-        agregarAmigo.push(nombre);
-    }
-    
-    limpiarCaja();                                                  //limpiar campo de entrada
-    return;
+        listaAmigos.push(nombre);
+        limpiarCaja();
+    }                                                               //limpiar campo de entrada
+    console.log(listaAmigos);
 }
 
 function actualizarListaMostrada(){
@@ -41,4 +41,5 @@ function sortearAmigo(){
 
 function limpiarCaja() {
     document.querySelector('#amigo').value = '';
+    nombre.value = '';
 }
