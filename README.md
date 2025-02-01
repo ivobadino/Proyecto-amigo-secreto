@@ -12,7 +12,7 @@
 
 - [Acesso al projecto](#acceso-al-proyecto)
 
-- [Abrir el proyecto](#abrir-el-proyecto)
+- [Usar aplicacion web](#usar-aplicacion-web)
 
 - [](#)
 
@@ -46,8 +46,9 @@ Esta aplicación web te permite crear una lista de amigos y realizar un sorteo a
 
 ## Acceso al proyecto
 
+Para acceder al codigo fuente hacer click [aqui](https://github.com/ivobadino/Proyecto-amigo-secreto)
 
-## Abrir el proyecto
+## Usar aplicacion web
 
-
+Para utilizar la aplicacion web hacer click [aqui](https://ivobadino.github.io/Proyecto-amigo-secreto/)
 
