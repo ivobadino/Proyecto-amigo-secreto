@@ -2,19 +2,20 @@
 
 ### Indice
 
-- [Descripcion del proyecto](#descrição-do-projeto)
+- [Descripcion del proyecto](#descripcion-del-proyecto)
 
 - [Funcionalidades](#funcionalidades)
 
-- [Aplicacion](#aplicação)
+- [Aplicacion](#aplicacion)
 
-- [Herramientas utilizadas](#ferramentas-utilizadas)
+- [Herramientas utilizadas](#herramientas-utilizadas)
 
-- [Acesso al projecto](#acesso-ao-projeto)
+- [Acesso al projecto](#acceso-al-proyecto)
 
-- [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
+- [Abrir el proyecto](#abrir-el-proyecto)
 
 - [](#)
+
 
 ## Descripcion del proyecto
 
@@ -25,7 +26,6 @@ Esta aplicación web te permite crear una lista de amigos y realizar un sorteo a
 
 
 ## Aplicacion
-
 
 ## Herramientas utilizadas
 
@@ -38,9 +38,11 @@ Esta aplicación web te permite crear una lista de amigos y realizar un sorteo a
 
 *   <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3" width="40" height="40"/> </a>CSS
 
+
 ## Acceso al proyecto
 
 
 ## Abrir el proyecto
+
 
 
