@@ -1,4 +1,4 @@
-<h1> AMIGO SECRETO </h1>
+![](https://github.com/user-attachments/assets/4a0bf432-7d67-4ec8-afb7-2e4744538ae2)
 
 ### Indice
 
@@ -19,10 +19,36 @@
 
 ## Descripcion del proyecto
 
-Esta aplicación web te permite crear una lista de amigos y realizar un sorteo aleatorio para asignar un amigo secreto a cada persona. Es una herramienta divertida y fácil de usar para organizar intercambios de regalos durante las fiestas o cualquier ocasión especial.
+Esta aplicación web te permite crear una lista de amigos y realizar un sorteo aleatorio para asignar un amigo secreto. Es una herramienta divertida y fácil de usar para organizar una infinidad de tareas que requieran de la seleccion de un amigo.
 
 
 ## Funcionalidades 
+:heavy_check_mark: `Funcionalidad 1:` <em>Carga de nombres validos</em><br>
+La aplicacion web te solicita que ingreses el nombre de un amigo por vez mediante una input de texto, al hacer clic en el boton de "añadir" la aplicacion verificara en la funcion `agregarAmigo()`, si el texto ingresado es un texto valido o un texto vacio.
+
+En el caso de ser un texto vacio, aparecera un `alert` indicando que el texto no es valido:
+![alerta de texto vacio](https://github.com/user-attachments/assets/58f1a547-edea-4db2-8315-ac4402037bb3)
+
+
+
+En caso de si ser un texto valido, es decir el nombre de un amigo, este o estos, segun la cantidad se guardaran en forma de lista debajo del input. Esto se logra añadiendo etiquetas de html `<li>` al listado contenido por `<ul>` con el `id="listaAmigos"` mediante la funcion:
+
+          function actualizarListaMostrada(){
+            limpiarTextos();
+            let listaHTML = "";
+            for (let indice = 0; indice < listaAmigos.length; indice++){
+                listaHTML += `<li>${listaAmigos[indice]}</li>`;
+            ListaDOM.innerHTML=listaHTML;
+            }
+          } 
+
+<em>lo que en la web se visualizaria:</em>
+
+![listado de amigos](https://github.com/user-attachments/assets/c3071f2d-76d4-4e76-8d61-a167212c4ad2)
+
+
+:heavy_check_mark: `Funcionalidad 2:` <em>Sorteo de un amigo</em><br>
+
 
 
 ## Aplicacion
