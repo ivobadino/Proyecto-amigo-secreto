@@ -6,8 +6,6 @@
 
 - [Funcionalidades](#funcionalidades)
 
-- [Aplicacion](#aplicacion)
-
 - [Herramientas utilizadas](#herramientas-utilizadas)
 
 - [Acesso al projecto](#acceso-al-proyecto)
@@ -86,7 +84,6 @@ Tambien el programa admite volver a sortear los nombres las veces que el usuario
 
 Mas funcionalidades seran agredas proximamente.
 
-## Aplicacion
 
 ## Herramientas utilizadas
 
